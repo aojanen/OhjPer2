@@ -7,7 +7,11 @@ int main()
     int count = 0;
     std::cin >> count;
     for ( int i = 1; i >= count; ++i) {
-        std::cout << i << std::endl;
+        if ( i%3 == 0 ){
+            std::cout << "zip";
+        } else {
+            std::cout << i << std::endl;
+        }
     }
 
     return 0;
