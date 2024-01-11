@@ -6,7 +6,7 @@ int main()
     std::cout << "How many numbers would you like to have? ";
     int count = 0;
     std::cin >> count;
-    for ( int i = 1; i >= count; ++i) {
+    for ( int i = 1; i <= count; ++i) {
         if ( i%3 == 0 ){
             if (i%7 == 0 ){
                 std::cout << "zip boing" << std::endl;
